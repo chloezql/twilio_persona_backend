@@ -1,0 +1,39 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependency directories
+node_modules
+jspm_packages
+
+# Distribution / build results
+dist
+build
+out
+tmp
+temp
+
+# Editor-specific files and directories
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Optional: Ignore coverage reports
+coverage
