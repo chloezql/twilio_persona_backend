@@ -54,7 +54,7 @@ fastify.get('/', async (request, reply) => {
 fastify.post('/incoming-call', async (request, reply) => {
     const twimlResponse = `<?xml version="1.0" encoding="UTF-8"?>
                           <Response>
-                              <Say>Please wait while we connect your call to your loved one, coral powered by Twilio and the Open-A.I. Realtime API.</Say>
+                              <Say>Please hold while we connect your call to your loved one, powered by Twilio and the Open-A.I. Realtime API.</Say>
                               <Pause length="1"/>
                               <Say>O.K. you can start talking!</Say>
                               <Connect>
