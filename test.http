@@ -1,5 +1,0 @@
-### Test the voice endpoint
-POST http://localhost:8787
-Content-Type: application/x-www-form-urlencoded
-
-SpeechResult=Hello grandmother, how are you today? 
